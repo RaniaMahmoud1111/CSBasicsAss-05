@@ -85,6 +85,31 @@
 
             #endregion
 
+            #region 23- Write a program in C# Sharp to find maximum and minimum element in an array
+
+            //int[] numbers = { 1, 2, 30, 3, 4, -5, 90, 8 };
+
+            //int mx = numbers[0];
+            //int mn = numbers[0];
+
+
+            //for (int i = 1; i < numbers.Length; i++)
+            //{
+            //    if (numbers[i]> mx)
+            //    {
+            //        mx= numbers[i];
+            //    }
+            //    if (numbers[i] < mn)
+            //    {
+            //        mn = numbers[i];
+            //    }
+
+            //}
+            //Console.WriteLine($"the Max num : {mx} \nthe min num : {mn}");
+
+
+
+            #endregion
 
         }
     }
