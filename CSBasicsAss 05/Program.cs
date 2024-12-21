@@ -316,7 +316,7 @@
             #region 3- Create a function named "IsPrime", which receives an integer number and retuns true if it is prime, or false if it is not .
 
             //int num;
-            //Console.WriteLine("enter a number !");
+            //Console.WriteLine("enter a number to check if Prime!");
             //bool check = int.TryParse(Console.ReadLine(), out num);
             //if (check)
             //{
@@ -328,6 +328,7 @@
             //    Console.WriteLine("You must enter  an integer number ");
             //}
 
+            // // Prime Function
             //static bool IsPrime(int n)
             //{
             //    int c = 0;
@@ -345,6 +346,36 @@
             //}
 
             #endregion
+
+            #region 4-   Create an iterative (non-recursive) function to calculate the factorial of the number specified as parameter .
+
+            //int num;
+            //Console.Write("enter a number to Calcolate The Factorial! ");
+            //bool check = int.TryParse(Console.ReadLine(), out num);
+            //if (check)
+            //{
+            //    Console.WriteLine($"Factorial of your Entered Number= {FactFunc(num)}" );
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You must enter  an integer number ");
+            //}
+
+            //// Factorial Iterative Function.
+             
+            //static long FactFunc(int n)
+            //{
+            //    long fact = 1;
+            //    for (int i = 1; i <=n; i++)
+            //    {
+            //        fact *= i;
+            //    }
+            //    return fact;
+            //}
+
+
+            #endregion
+
         }
     }
 }
