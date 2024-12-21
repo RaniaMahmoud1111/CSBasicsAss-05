@@ -176,6 +176,25 @@
 
             #endregion
 
+            #region 26- Given a list of space separated words, reverse the order of the words.
+
+            //string wordList;
+            //string[] reversedList;
+
+            //Console.WriteLine("Enter your string or list of words. ");
+            //wordList = Console.ReadLine();
+
+            //reversedList=wordList.Split(' ');
+            //for (int i =reversedList.Length-1;i>0; i--)
+            //{
+            //    Console.Write($"{reversedList[i]} ");
+            //}
+
+            #endregion
+
+
+
+
         }
     }
 }
