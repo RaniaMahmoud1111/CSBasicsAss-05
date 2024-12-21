@@ -253,7 +253,7 @@
 
             //--------------Functions------------------
 
-            #region  Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
+            #region 1-  Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
 
             ////passing by Value type parameters: like take a copy of variables so i need to stack fram to store these copys.
             //// suitable c# example:Swap
@@ -285,7 +285,33 @@
 
             #endregion
 
+            #region 2-	Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number.
 
+            int num;
+            Console.WriteLine("enter a number !");
+            bool check = int.TryParse(Console.ReadLine(), out num);
+            if(check)
+            {
+                Console.WriteLine($"Sum= {SumDigit(num)}");
+            }
+            else
+            {
+                Console.WriteLine("You must enter  an integer number ");
+            }
+
+            static long SumDigit(int n)
+            {
+                long sum = 0;
+                while (n > 0)
+                {
+                    int temp = n % 10;
+                    n /= 10;
+                    sum += temp;
+                }
+                return sum;
+            }
+
+            #endregion
         }
     }
 }
