@@ -287,29 +287,62 @@
 
             #region 2-	Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number.
 
-            int num;
-            Console.WriteLine("enter a number !");
-            bool check = int.TryParse(Console.ReadLine(), out num);
-            if(check)
-            {
-                Console.WriteLine($"Sum= {SumDigit(num)}");
-            }
-            else
-            {
-                Console.WriteLine("You must enter  an integer number ");
-            }
+            //int num;
+            //Console.WriteLine("enter a number !");
+            //bool check = int.TryParse(Console.ReadLine(), out num);
+            //if(check)
+            //{
+            //    Console.WriteLine($"Sum= {SumDigit(num)}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You must enter  an integer number ");
+            //}
 
-            static long SumDigit(int n)
-            {
-                long sum = 0;
-                while (n > 0)
-                {
-                    int temp = n % 10;
-                    n /= 10;
-                    sum += temp;
-                }
-                return sum;
-            }
+            //static long SumDigit(int n)
+            //{
+            //    long sum = 0;
+            //    while (n > 0)
+            //    {
+            //        int temp = n % 10;
+            //        n /= 10;
+            //        sum += temp;
+            //    }
+            //    return sum;
+            //}
+
+            #endregion
+
+            #region 3- Create a function named "IsPrime", which receives an integer number and retuns true if it is prime, or false if it is not .
+
+            //int num;
+            //Console.WriteLine("enter a number !");
+            //bool check = int.TryParse(Console.ReadLine(), out num);
+            //if (check)
+            //{
+            //    string msg = (IsPrime(num)) ? "You number is prime" : "You number is not Prime";
+            //    Console.WriteLine(msg);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You must enter  an integer number ");
+            //}
+
+            //static bool IsPrime(int n)
+            //{
+            //    int c = 0;
+            //    for (int i = 2; i < Math.Sqrt(n); i++)
+            //    {
+            //        if (n % i == 0)
+            //            c++;
+            //    }
+
+            //    if (c ==0)
+            //        return true;
+
+            //    return false;
+
+            //}
 
             #endregion
         }
