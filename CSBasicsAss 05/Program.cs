@@ -30,6 +30,20 @@
 
             #endregion
 
+            #region 20- Write a program in C# Sharp to find the sum of all elements of the array.
+
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+            //long sum=0;
+            //for (int i = 0; i < arr.Length; i++) 
+            //{
+            //    sum += arr[i];
+            //}
+            //Console.WriteLine($"Sum of array elements: {sum} " );
+
+
+            #endregion
+
+
         }
     }
 }
