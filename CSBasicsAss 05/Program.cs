@@ -222,6 +222,37 @@
             #endregion
 
 
+            #region 28- Write a Program to Print One Dimensional Array in Reverse Order
+
+            //int size;
+            //Console.Write("Enter the size of array: ");
+            //size =int.TryParse(Console.ReadLine(), out size)?size:0;
+            //int[] nums=new int[size];
+
+            //Console.WriteLine("Enter values of your array.");
+            //for (int i = 0; i < size; i++)
+            //{
+            //    bool check=int.TryParse(Console.ReadLine(), out nums[i]);
+            //    if (!check)
+            //    {
+            //        Console.WriteLine("you must enter integer numbers !");
+            //    }
+               
+            //}
+
+            //for (int i = 0; i < size; i++)
+            //{
+            //    Console.Write($"{nums[size-i-1]} ");
+            //}
+
+
+            #endregion
+
+
+
+
+
+
         }
     }
 }
