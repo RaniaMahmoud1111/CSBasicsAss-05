@@ -139,10 +139,43 @@
             //}
             //Console.WriteLine($"First max: {mx1}\nSecond Max: {mx2}");
 
-                #endregion
+            #endregion
+
+            #region 25-. Consider an Array of Integer values with size N, having values as in this Example write a program find the longest distance between Two equal cells. 
+            //int size;
+            //Console.Write($"enter the size of the array: ");
+            //size=int.TryParse( Console.ReadLine(), out size )?size:0;
+
+            //int[] arr = new int[size];
+            //Console.WriteLine("enter array numbers ");
+            //// enterning the array values
+            //for (int i = 0; i <size; i++)
+            //{
+            //    bool check = int.TryParse(Console.ReadLine(), out arr[i]);
+            //    if (!check)
+            //    {
+            //        Console.WriteLine("you must enter an integer number");
+            //    }              
+            //}
+            ////find longest dist
+            //int LongDist = -1;
+
+            //int len=arr.Max();
+            //int[] LDistArr = new int[len+1];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    LongDist = (Array.LastIndexOf(arr, arr[i]) - Array.IndexOf(arr, arr[i]))-1;
+            //    LDistArr[arr[i]]= LongDist;
+            //}
+
+            //Console.Write($"enter the value of Two equal cells to find  the longest distance between them:  ");
+            //int val=int.TryParse(Console.ReadLine() ,out val)? val:0;
+            //Console.WriteLine($"the longest distance of that value: {LDistArr[val]} cells! .");
 
 
+            #endregion
 
-            }
+        }
     }
 }
