@@ -1,4 +1,6 @@
-﻿namespace CSBasicsAss_05
+﻿using System.Text;
+
+namespace CSBasicsAss_05
 {
     internal class Program
     {
@@ -362,7 +364,7 @@
             //}
 
             //// Factorial Iterative Function.
-             
+
             //static long FactFunc(int n)
             //{
             //    long fact = 1;
@@ -373,6 +375,35 @@
             //    return fact;
             //}
 
+
+            #endregion
+
+            #region  5-  Create a function named "ChangeChar" to modify a letter in a certain position (0 based) of a string, replacing it with a different letter .
+
+           // Console.Write("Enter your string: ");
+           //string str= Console.ReadLine();
+           // Console.WriteLine("Enter the new Letter and the postion of Letter you need to change it.");
+           // char c = char.Parse(Console.ReadLine());
+           // int pos= int.Parse(Console.ReadLine());
+
+           // Console.WriteLine($"String after change:{ChangeChar(str,pos,c)} ");
+           //// function here 
+            
+           // static string ChangeChar(string s, int pos, char newLetter)
+           // {
+           //     string newStr="";
+           //    for (int i = 0; i < s.Length; i++)
+           //     {
+           //         if(i==pos)
+           //         {
+           //          newStr += newLetter;
+           //         }else
+           //         newStr += s[i];
+           //     }
+
+           //    return newStr;
+
+           // }
 
             #endregion
 
