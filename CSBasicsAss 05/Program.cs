@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            //--------------Arrays---------------------
 
             #region 19. Write a program that prints an identity matrix using for loop, in other words takes a value n from the user and shows the identity table of size n * n.
             //int n;
@@ -237,7 +238,7 @@
             //    {
             //        Console.WriteLine("you must enter integer numbers !");
             //    }
-               
+
             //}
 
             //for (int i = 0; i < size; i++)
@@ -250,7 +251,39 @@
 
 
 
+            //--------------Functions------------------
 
+            #region  Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
+
+            ////passing by Value type parameters: like take a copy of variables so i need to stack fram to store these copys.
+            //// suitable c# example:Swap
+
+            //int n1 = 5;
+            //int n2 = 10;
+            //static void SwapFunc(int x, int y)
+            //{
+            //    int temp=x;
+            //    x = y;
+            //    y = temp;
+            //    Console.WriteLine($"First num: {x}, Second num: {y}");
+            //}
+            //Console.WriteLine("By Value!!");
+            //SwapFunc(n1, n2);
+            //Console.WriteLine($"First num: {n1}, Second num: {n2}");
+
+            ////passing by reference parameters: i put a reference of the variables means i have the address of the varables and can directly modify them 
+            //static void SwapFunc2(ref int x, ref int y)
+            //{
+            //    int temp = x;
+            //    x = y;
+            //    y = temp;
+            //    Console.WriteLine($"First num: {x}, Second num: {y}");
+            //}
+            //Console.WriteLine("By Reference!!");
+            //SwapFunc2(ref n1, ref n2);
+            //Console.WriteLine($"First num: {n1}, Second num: {n2}");
+
+            #endregion
 
 
         }
